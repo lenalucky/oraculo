@@ -1,0 +1,180 @@
+body {
+	
+	background: #FFF5F5;
+	max-width: 940px;
+}
+
+/*a largura máxima da página é de 940px*/
+
+
+
+/* menu suspenso */
+
+li {
+
+	position: relative;
+	display: inline;
+	font-size: 25px;
+	padding: 15px;
+	text-decoration: none;
+	left: 33%; /* valor desktop */
+
+
+
+}
+
+li a {
+
+	color: #C38888;
+	text-decoration: none;
+	text-transform: none;
+}
+
+li:hover {
+
+	color: #C38888;
+	text-decoration: none;
+	
+
+}
+
+
+/*CSS DA PÁGINA DE INÍCIO*/
+
+#spark {
+
+	left: 50%;
+    width: 250px; /* Largura desejada */
+    position: relative;
+    top: 20px;
+    margin-left: -125px;   /* menos metade da largura desejada */ 
+
+
+}
+
+#spark label  {
+
+	position: absolute;
+	right: 150px; /* não mexer aqui pq é a posição alinhada com a imagem */
+	max-width: 50%;
+	font-size: 80px;
+	text-align: center;
+	font-family: 'DM Serif Display', serif;
+	color: #000000;
+}
+
+#spark label:hover {
+
+	color: #C38888;
+	transition: 500ms linear;
+}
+
+
+/* o texto é posicionado dentro da imagem
+de acordo com as proporções da mesma */
+
+
+/* posicionamento da imagem e do texto */
+
+#container {
+
+	left: 45%;
+    width: 500px; /* Largura desejada */
+    top: -20px;
+    padding: 35px;
+    position: relative;
+    margin-left: -220px;   /* menos metade da largura desejada */ 
+}
+
+#container label {
+
+	position: absolute;
+	top: 200px;
+	right: 135px;
+	max-width: 50%;
+	font-size: 20px;
+	text-align: justify;
+	color: #000000;
+
+
+}
+/* label serve como uma tag de posicionamento */
+
+#container label:hover {
+
+	color: #C38888;
+	transition: 500ms linear;
+
+}
+
+#main { /* o campo da escrita */
+
+	left: 43%;
+    width: 700px; /* Largura desejada */
+    top: -20px;
+    padding: 35px;
+    position: relative;
+    margin-left: -220px;   /* menos metade da largura desejada */ 
+
+}
+
+#main label { /*a parte escrita*/
+
+	position: absolute;
+	box-sizing: border-box;
+    border: 2px solid #000000;
+	border-radius: 10px;
+	top: 10px;
+	left: 120px;
+	padding: 35px;
+	max-width: 50%;
+	font-size: 20px;
+	text-align: justify;
+	color: #000000;
+}
+
+footer {
+
+	left: 50%;
+    width: 500px; /* Largura desejada */
+    position: relative;
+    top: -50px;
+    margin-left: -220px;   /* menos metade da largura desejada */ 
+
+
+}
+
+footer p {
+
+	text-align: center;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+}
+
+footer p:hover {
+
+	color: #C38888;
+	text-decoration: none;
+
+}
+
+#footer-sobre {
+
+	left: 45%;
+    width: 500px; /* Largura desejada */
+    position: relative;
+    top: 450px;
+    margin-left: -220px;   /* menos metade da largura desejada */ 
+
+
+}
+
+#footer-sobre p {
+
+	text-align: center;
+	font-weight: bold;
+	padding: 20px;
+	color: #000000;
+	text-decoration: none;
+}
