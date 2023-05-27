@@ -20,9 +20,6 @@ li {
 	text-decoration: none;
 	float: left;
 	left: 30%;
-
-
-
 }
 
 li a {
@@ -190,22 +187,34 @@ footer p:hover {
 
 }
 
-#footer-sobre {
 
-		left: 45%;
-    width: 500px; /* Largura desejada */
-    position: relative;
-    top: 450px;
-    margin-left: -220px;   /* menos metade da largura desejada */ 
+@media screen and (max-width: 480px) {
 
+li {
 
+	position: static;
+	width: auto;
+	display: inline;
+	font-size: 25px;
+	padding: 10px;
+	text-decoration: none;
+	float: left;
+	left: 30%;
 }
 
-#footer-sobre p {
+li a {
 
-	text-align: center;
-	font-weight: bold;
-	padding: 20px;
-	color: #000000;
+	color: #C38888;
 	text-decoration: none;
+	text-transform: none;
+}
+
+li:hover {
+
+	color: #FFF5F5;
+	background: #C38888;
+	border-radius: 10px;
+	text-decoration: none;
+	
+
 }
