@@ -67,7 +67,7 @@ li:hover {
 
 #spark {
 
-	left: 50%;
+		left: 50%;
     width: 250px; /* Largura desejada */
     position: relative;
     top: 20px;
@@ -79,7 +79,7 @@ li:hover {
 #spark label  {
 
 	position: absolute;
-	right: 150px; /* não mexer aqui pq é a posição alinhada com a imagem */
+	right: 165px; /* não mexer aqui pq é a posição alinhada com a imagem */
 	max-width: 50%;
 	font-size: 80px;
 	text-align: center;
@@ -102,7 +102,7 @@ de acordo com as proporções da mesma */
 
 #container {
 
-	left: 40%;
+	 	left: 40%;
     width: 500px; /* Largura desejada */
     top: -20px;
     padding: 35px;
@@ -129,10 +129,11 @@ de acordo com as proporções da mesma */
 
 #container label:hover {
 
-	color: #C38888;
-	transition: 500ms linear;
+		color: #C38888;
+		transition: 500ms linear;
 
 }
+
 
 #main { /* o campo da escrita */
 
@@ -160,9 +161,22 @@ de acordo com as proporções da mesma */
 	color: #000000;
 }
 
+/* elemento lua */
+
+#container-moon {
+
+	 	left: 65%;
+    width: 500px; /* Largura desejada */
+    top: -20px;
+    padding: 35px;
+    position: relative;
+    margin-left: -220px;   /* menos metade da largura desejada */ 
+}
+
+
 footer {
 
-		left: 63%;
+		left: 55%;
     width: 350px; /* Largura desejada */
     position: relative;
     top: -50px;
@@ -216,5 +230,9 @@ li:hover {
 	border-radius: 10px;
 	text-decoration: none;
 	
+}
 
+h1 {
+
+	color: #C38888;
 }
