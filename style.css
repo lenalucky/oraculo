@@ -62,6 +62,9 @@ li:hover {
   border: 1px solid #C38888;
 }
 
+/* cor ao selecionar texto */
+::selection { background: #C38888; color: #FFFFFF; } ::-moz-selection { background: #C38888; color: #FFFFFF; }
+
 
 /*CSS DA PÁGINA DE INÍCIO*/
 
@@ -93,51 +96,59 @@ li:hover {
 	transition: 500ms linear;
 }
 
+/*função para as frases e background da home*/
 
-/* o texto é posicionado dentro da imagem
-de acordo com as proporções da mesma */
+.frase {
+  position: absolute;
+  margin-left: -220px;
+	top: 300px;
+	right: 120px;
+	max-width: 55%;
+	height: 245px;
+  padding: 10px;
+	font-size: 20px;
+	text-align: justify;
+	color: #000000;
 
+  
+}
 
-/* posicionamento da imagem e do texto */
+#frases-container {
 
-#container {
-
-	 	left: 40%;
-    width: 500px; /* Largura desejada */
-    top: -20px;
+	 	left: 45%;
+    max-width: 500px; /* Largura desejada */
+    top: -140px;
     padding: 35px;
     position: relative;
     margin-left: -220px;   /* menos metade da largura desejada */ 
 }
 
-#container label {
 
-	position: absolute;
-	top: 150px;
-	right: 135px;
-	max-width: 50%;
-	height: 245px;
-    overflow-y: scroll;
-    padding: 10px;
-	font-size: 20px;
-	text-align: justify;
-	color: #000000;
+#sobre-container {
 
-
-}
-/* label serve como uma tag de posicionamento */
-
-#container label:hover {
-
-		color: #C38888;
-		transition: 500ms linear;
-
+	 	left: 45%;
+    max-width: 500px; /* Largura desejada */
+    top: -80px;
+    overflow: overflow-y;
+    padding: 35px;
+    position: relative;
+    margin-left: -220px;   /* menos metade da largura desejada */ 
 }
 
+#sobre-p {
+
+		left: 45%;
+    max-width: 100px; /* Largura desejada */
+    top: -80px;
+    overflow: overflow-y;
+    padding: 35px;
+    position: relative;
+    margin-left: -220px;   /* menos metade da largura desejada */ 
+}
 
 #main { /* o campo da escrita */
 
-	left: 43%;
+		left: 43%;
     width: 700px; /* Largura desejada */
     top: -20px;
     padding: 35px;
@@ -176,11 +187,11 @@ de acordo com as proporções da mesma */
 
 footer {
 
-		left: 55%;
+		left: 52%;
     width: 350px; /* Largura desejada */
     position: relative;
-    top: -50px;
-    margin-left: -220px;   /* menos metade da largura desejada */ 
+    top: -170px;
+    margin-left: -175px;   /* menos metade da largura desejada */ 
 
 
 }
@@ -193,13 +204,6 @@ footer p {
 	text-decoration: none;
 }
 
-footer p:hover {
-
-	color:#FFFFFF;
-	background-color: #C38888;
-	text-decoration: none;
-
-}
 
 
 @media screen and (max-width: 480px) {
@@ -236,4 +240,11 @@ li:hover {
 h1 {
 
 	color: #C38888;
+}
+
+footer {
+
+	top: -350px;
+	left: 220px;
+	padding: 10px;
 }
