@@ -242,9 +242,31 @@ h1 {
 	color: #C38888;
 }
 
+.frase {
+  position: absolute;
+  margin-left: -220px;
+	top: 300px;
+	right: 120px;
+	max-width: 55%;
+	height: 245px;
+  padding: 10px;
+	font-size: 20px;
+	text-align: justify;
+	color: #000000;
+}
+
+#frases-container {
+
+	 	left: 45%;
+    max-width: 464px; /* Largura desejada */
+    top: -140px;
+    padding: 35px;
+    position: relative;
+    margin-left: -220px;   /* menos metade da largura desejada */ 
+}
+
 footer {
 
 	top: -350px;
 	left: 220px;
-	padding: 10px;
 }
